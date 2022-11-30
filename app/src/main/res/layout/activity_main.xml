@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/backgroud"
+    android:id="@+id/background"
     android:background="@color/grey"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <EditText
+    <TextView
         android:id="@+id/editText"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/table"
@@ -126,7 +126,7 @@
                 ></androidx.appcompat.widget.AppCompatButton>
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/buX"
+                android:id="@+id/buTimes"
                 android:text="X"
                 android:layout_marginRight="1pt"
                 android:layout_margin="1pt"
@@ -279,7 +279,7 @@
                 ></androidx.appcompat.widget.AppCompatButton>
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/buTimes"
+                android:id="@+id/buPoint"
                 android:text="."
                 android:layout_marginRight="1pt"
                 android:layout_margin="1pt"
